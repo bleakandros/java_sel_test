@@ -1,2 +1,4 @@
+test/ship/StarShip.java
+ test.ship.StarShip
 FirstTest.java
  FirstTest
