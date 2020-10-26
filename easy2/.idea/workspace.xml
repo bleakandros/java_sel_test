@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0cbb2470-0b8f-4252-80ba-1b0eae77ad44" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="easeqatests" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="easeqatests" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1jN9LUTF4yrRskG3HhvtZW54pu8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.40487805" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RunManager">
+    <configuration name="FirstTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;FirstTests&quot; --stacktrace" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.FirstTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0cbb2470-0b8f-4252-80ba-1b0eae77ad44" name="Default Changelist" comment="" />
+      <created>1603633642767</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603633642767</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="382" y="116" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603722712556">
+      <screen x="0" y="0" width="1856" height="925" />
+    </state>
+    <state x="382" y="116" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1856.925@0.0.1856.925" timestamp="1603722712556" />
+    <state x="594" y="118" key="FileChooserDialogImpl" timestamp="1603654924684">
+      <screen x="0" y="0" width="1856" height="929" />
+    </state>
+    <state x="594" y="118" key="FileChooserDialogImpl/0.0.1856.929@0.0.1856.929" timestamp="1603654924684" />
+    <state width="1812" height="213" key="GridCell.Tab.0.bottom" timestamp="1603723396454">
+      <screen x="0" y="0" width="1856" height="925" />
+    </state>
+    <state width="1812" height="213" key="GridCell.Tab.0.bottom/0.0.1856.925@0.0.1856.925" timestamp="1603723396454" />
+    <state width="1812" height="277" key="GridCell.Tab.0.bottom/0.0.1856.929@0.0.1856.929" timestamp="1603706582684" />
+    <state width="1812" height="213" key="GridCell.Tab.0.center" timestamp="1603723396454">
+      <screen x="0" y="0" width="1856" height="925" />
+    </state>
+    <state width="1812" height="213" key="GridCell.Tab.0.center/0.0.1856.925@0.0.1856.925" timestamp="1603723396454" />
+    <state width="1812" height="277" key="GridCell.Tab.0.center/0.0.1856.929@0.0.1856.929" timestamp="1603706582684" />
+    <state width="1812" height="213" key="GridCell.Tab.0.left" timestamp="1603723396454">
+      <screen x="0" y="0" width="1856" height="925" />
+    </state>
+    <state width="1812" height="213" key="GridCell.Tab.0.left/0.0.1856.925@0.0.1856.925" timestamp="1603723396454" />
+    <state width="1812" height="277" key="GridCell.Tab.0.left/0.0.1856.929@0.0.1856.929" timestamp="1603706582683" />
+    <state width="1812" height="213" key="GridCell.Tab.0.right" timestamp="1603723396454">
+      <screen x="0" y="0" width="1856" height="925" />
+    </state>
+    <state width="1812" height="213" key="GridCell.Tab.0.right/0.0.1856.925@0.0.1856.925" timestamp="1603723396454" />
+    <state width="1812" height="277" key="GridCell.Tab.0.right/0.0.1856.929@0.0.1856.929" timestamp="1603706582684" />
+    <state width="1812" height="601" key="GridCell.Tab.1.bottom" timestamp="1603651710599">
+      <screen x="0" y="0" width="1856" height="929" />
+    </state>
+    <state width="1812" height="601" key="GridCell.Tab.1.bottom/0.0.1856.929@0.0.1856.929" timestamp="1603651710599" />
+    <state width="1812" height="601" key="GridCell.Tab.1.center" timestamp="1603651710599">
+      <screen x="0" y="0" width="1856" height="929" />
+    </state>
+    <state width="1812" height="601" key="GridCell.Tab.1.center/0.0.1856.929@0.0.1856.929" timestamp="1603651710599" />
+    <state width="1812" height="601" key="GridCell.Tab.1.left" timestamp="1603651710599">
+      <screen x="0" y="0" width="1856" height="929" />
+    </state>
+    <state width="1812" height="601" key="GridCell.Tab.1.left/0.0.1856.929@0.0.1856.929" timestamp="1603651710599" />
+    <state width="1812" height="601" key="GridCell.Tab.1.right" timestamp="1603651710599">
+      <screen x="0" y="0" width="1856" height="929" />
+    </state>
+    <state width="1812" height="601" key="GridCell.Tab.1.right/0.0.1856.929@0.0.1856.929" timestamp="1603651710599" />
+    <state x="509" y="71" key="SettingsEditor" timestamp="1603719931659">
+      <screen x="0" y="0" width="1856" height="925" />
+    </state>
+    <state x="509" y="71" key="SettingsEditor/0.0.1856.925@0.0.1856.925" timestamp="1603719931659" />
+    <state x="509" y="138" key="SettingsEditor/0.0.1856.929@0.0.1856.929" timestamp="1603654984436" />
+    <state x="745" y="377" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603635742147">
+      <screen x="0" y="0" width="1856" height="929" />
+    </state>
+    <state x="745" y="377" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1856.929@0.0.1856.929" timestamp="1603635742147" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/easeqatests$FirstTests.ic" NAME="FirstTests Coverage Results" MODIFIED="1603638000123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
