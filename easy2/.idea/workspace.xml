@@ -64,7 +64,7 @@
     <property name="project.structure.side.proportion" value="0.40487805" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.FirstTests">
     <configuration name="FirstTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -79,11 +79,36 @@
             <option value=":test" />
           </list>
         </option>
-        <option name="vmOptions" />
+        <option name="vmOptions" value="" />
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="FirstTests" type="TestNG">
+      <module name="easeqatests.test" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstTests" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dwdm.chromeDriverVersion=85.0.4183.87" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.FirstTests" />
+      <item itemvalue="TestNG.FirstTests" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.FirstTests" />
@@ -102,33 +127,34 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="382" y="116" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603722712556">
+    <state x="140" y="99" width="1092" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603726313926">
       <screen x="0" y="0" width="1856" height="925" />
     </state>
-    <state x="382" y="116" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1856.925@0.0.1856.925" timestamp="1603722712556" />
-    <state x="594" y="118" key="FileChooserDialogImpl" timestamp="1603654924684">
-      <screen x="0" y="0" width="1856" height="929" />
+    <state x="140" y="99" width="1092" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1856.925@0.0.1856.925" timestamp="1603726313926" />
+    <state x="594" y="117" key="FileChooserDialogImpl" timestamp="1603726128268">
+      <screen x="0" y="0" width="1856" height="925" />
     </state>
+    <state x="594" y="117" key="FileChooserDialogImpl/0.0.1856.925@0.0.1856.925" timestamp="1603726128268" />
     <state x="594" y="118" key="FileChooserDialogImpl/0.0.1856.929@0.0.1856.929" timestamp="1603654924684" />
-    <state width="1812" height="213" key="GridCell.Tab.0.bottom" timestamp="1603723396454">
+    <state width="1812" height="213" key="GridCell.Tab.0.bottom" timestamp="1603726455852">
       <screen x="0" y="0" width="1856" height="925" />
     </state>
-    <state width="1812" height="213" key="GridCell.Tab.0.bottom/0.0.1856.925@0.0.1856.925" timestamp="1603723396454" />
+    <state width="1812" height="213" key="GridCell.Tab.0.bottom/0.0.1856.925@0.0.1856.925" timestamp="1603726455852" />
     <state width="1812" height="277" key="GridCell.Tab.0.bottom/0.0.1856.929@0.0.1856.929" timestamp="1603706582684" />
-    <state width="1812" height="213" key="GridCell.Tab.0.center" timestamp="1603723396454">
+    <state width="1812" height="213" key="GridCell.Tab.0.center" timestamp="1603726455852">
       <screen x="0" y="0" width="1856" height="925" />
     </state>
-    <state width="1812" height="213" key="GridCell.Tab.0.center/0.0.1856.925@0.0.1856.925" timestamp="1603723396454" />
+    <state width="1812" height="213" key="GridCell.Tab.0.center/0.0.1856.925@0.0.1856.925" timestamp="1603726455852" />
     <state width="1812" height="277" key="GridCell.Tab.0.center/0.0.1856.929@0.0.1856.929" timestamp="1603706582684" />
-    <state width="1812" height="213" key="GridCell.Tab.0.left" timestamp="1603723396454">
+    <state width="1812" height="213" key="GridCell.Tab.0.left" timestamp="1603726455852">
       <screen x="0" y="0" width="1856" height="925" />
     </state>
-    <state width="1812" height="213" key="GridCell.Tab.0.left/0.0.1856.925@0.0.1856.925" timestamp="1603723396454" />
+    <state width="1812" height="213" key="GridCell.Tab.0.left/0.0.1856.925@0.0.1856.925" timestamp="1603726455852" />
     <state width="1812" height="277" key="GridCell.Tab.0.left/0.0.1856.929@0.0.1856.929" timestamp="1603706582683" />
-    <state width="1812" height="213" key="GridCell.Tab.0.right" timestamp="1603723396454">
+    <state width="1812" height="213" key="GridCell.Tab.0.right" timestamp="1603726455852">
       <screen x="0" y="0" width="1856" height="925" />
     </state>
-    <state width="1812" height="213" key="GridCell.Tab.0.right/0.0.1856.925@0.0.1856.925" timestamp="1603723396454" />
+    <state width="1812" height="213" key="GridCell.Tab.0.right/0.0.1856.925@0.0.1856.925" timestamp="1603726455852" />
     <state width="1812" height="277" key="GridCell.Tab.0.right/0.0.1856.929@0.0.1856.929" timestamp="1603706582684" />
     <state width="1812" height="601" key="GridCell.Tab.1.bottom" timestamp="1603651710599">
       <screen x="0" y="0" width="1856" height="929" />
