@@ -1,34 +1,43 @@
 import com.codeborne.selenide.Configuration;
-import org.openqa.selenium.*;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import com.easyqa.qa.pages.DashboardPage;
+import com.easyqa.qa.pages.LoginPage;
+import com.easyqa.qa.pages.ProjectPage;
+import org.testng.annotations.*;
 
-import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Selenide.close;
 import static com.codeborne.selenide.Selenide.open;
 
 public class FirstTests {
-
     private boolean acceptNextAlert = true;
     private StringBuffer verificationErrors = new StringBuffer();
 
-    @BeforeClass(alwaysRun = true)
+    @BeforeMethod(alwaysRun = true)
     public void setUp() throws Exception {
         Configuration.browser = "chrome";
+        Configuration.browserSize = "1600x1000";
+    }
+
+    @Test
+    public void loginAsRegistratedUser() {
+
+        LoginPage loginPage = open("https://app.geteasyqa.com/users/sign_in", LoginPage.class);
+        LoginPage.enterLogin("andsev@gmail.com");
+        LoginPage.enterPassword("HJOHohofhdo464878d");
+        DashboardPage dashboardPage = LoginPage.clickLoginBtn();
+        dashboardPage.checkUserAutorized();
     }
     @Test
-    public void testUntitledTestCase() {
-        open("https://app.geteasyqa.com/users/sign_in");
-        $(By.id("user_email")).click();
-        $(By.id("user_email")).clear();
-        $(By.id("user_email")).sendKeys("andsev@gmail.com");
-        $(By.id("user_email")).click();
-        $(By.id("user_password")).clear();
-        $(By.id("user_password")).sendKeys("HJOHohofhdo464878d");
-        $(By.name("commit")).click();
+    public void openProjects() {
+        LoginPage loginPage = open("https://app.geteasyqa.com/users/sign_in", LoginPage.class);
+        LoginPage.enterLogin("andsev@gmail.com");
+        LoginPage.enterPassword("HJOHohofhdo464878d");
+        DashboardPage dashboardPage = LoginPage.clickLoginBtn();
+        dashboardPage.checkUserAutorized();
+        ProjectPage projectPage = dashboardPage.openMyProjects();
+        projectPage.checkProjectPage();
     }
-    @AfterClass(alwaysRun = true)
+
+    @AfterMethod
     public void tearDown() throws Exception {
         close();
     }
