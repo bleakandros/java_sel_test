@@ -21,17 +21,17 @@ public class FirstTests {
     public void loginAsRegistratedUser() {
 
         LoginPage loginPage = open("https://app.geteasyqa.com/users/sign_in", LoginPage.class);
-        LoginPage.enterLogin("andsev@gmail.com");
-        LoginPage.enterPassword("HJOHohofhdo464878d");
-        DashboardPage dashboardPage = LoginPage.clickLoginBtn();
+        loginPage.enterLogin("andsev@gmail.com");
+        loginPage.enterPassword("HJOHohofhdo464878d");
+        DashboardPage dashboardPage = loginPage.clickLoginBtn();
         dashboardPage.checkUserAutorized();
     }
     @Test
     public void openProjects() {
         LoginPage loginPage = open("https://app.geteasyqa.com/users/sign_in", LoginPage.class);
-        LoginPage.enterLogin("andsev@gmail.com");
-        LoginPage.enterPassword("HJOHohofhdo464878d");
-        DashboardPage dashboardPage = LoginPage.clickLoginBtn();
+        loginPage.enterLogin("andsev@gmail.com");
+        loginPage.enterPassword("HJOHohofhdo464878d");
+        DashboardPage dashboardPage = loginPage.clickLoginBtn();
         dashboardPage.checkUserAutorized();
         ProjectPage projectPage = dashboardPage.openMyProjects();
         projectPage.checkProjectPage();
