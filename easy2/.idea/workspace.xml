@@ -131,34 +131,34 @@
       <screen x="0" y="0" width="1856" height="925" />
     </state>
     <state x="140" y="99" width="1092" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1856.925@0.0.1856.925" timestamp="1603726313926" />
-    <state x="643" y="385" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1603900924325">
+    <state x="643" y="385" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604174068719">
       <screen x="0" y="0" width="1856" height="925" />
     </state>
-    <state x="643" y="385" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1856.925@0.0.1856.925" timestamp="1603900924325" />
+    <state x="643" y="385" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1856.925@0.0.1856.925" timestamp="1604174068719" />
     <state x="594" y="117" key="FileChooserDialogImpl" timestamp="1603726128268">
       <screen x="0" y="0" width="1856" height="925" />
     </state>
     <state x="594" y="117" key="FileChooserDialogImpl/0.0.1856.925@0.0.1856.925" timestamp="1603726128268" />
     <state x="594" y="118" key="FileChooserDialogImpl/0.0.1856.929@0.0.1856.929" timestamp="1603654924684" />
-    <state width="1812" height="213" key="GridCell.Tab.0.bottom" timestamp="1604061372101">
+    <state width="1812" height="213" key="GridCell.Tab.0.bottom" timestamp="1604306212892">
       <screen x="0" y="0" width="1856" height="925" />
     </state>
-    <state width="1812" height="213" key="GridCell.Tab.0.bottom/0.0.1856.925@0.0.1856.925" timestamp="1604061372101" />
+    <state width="1812" height="213" key="GridCell.Tab.0.bottom/0.0.1856.925@0.0.1856.925" timestamp="1604306212892" />
     <state width="1812" height="277" key="GridCell.Tab.0.bottom/0.0.1856.929@0.0.1856.929" timestamp="1603706582684" />
-    <state width="1812" height="213" key="GridCell.Tab.0.center" timestamp="1604061372101">
+    <state width="1812" height="213" key="GridCell.Tab.0.center" timestamp="1604306212892">
       <screen x="0" y="0" width="1856" height="925" />
     </state>
-    <state width="1812" height="213" key="GridCell.Tab.0.center/0.0.1856.925@0.0.1856.925" timestamp="1604061372101" />
+    <state width="1812" height="213" key="GridCell.Tab.0.center/0.0.1856.925@0.0.1856.925" timestamp="1604306212892" />
     <state width="1812" height="277" key="GridCell.Tab.0.center/0.0.1856.929@0.0.1856.929" timestamp="1603706582684" />
-    <state width="1812" height="213" key="GridCell.Tab.0.left" timestamp="1604061372101">
+    <state width="1812" height="213" key="GridCell.Tab.0.left" timestamp="1604306212892">
       <screen x="0" y="0" width="1856" height="925" />
     </state>
-    <state width="1812" height="213" key="GridCell.Tab.0.left/0.0.1856.925@0.0.1856.925" timestamp="1604061372101" />
+    <state width="1812" height="213" key="GridCell.Tab.0.left/0.0.1856.925@0.0.1856.925" timestamp="1604306212892" />
     <state width="1812" height="277" key="GridCell.Tab.0.left/0.0.1856.929@0.0.1856.929" timestamp="1603706582683" />
-    <state width="1812" height="213" key="GridCell.Tab.0.right" timestamp="1604061372101">
+    <state width="1812" height="213" key="GridCell.Tab.0.right" timestamp="1604306212892">
       <screen x="0" y="0" width="1856" height="925" />
     </state>
-    <state width="1812" height="213" key="GridCell.Tab.0.right/0.0.1856.925@0.0.1856.925" timestamp="1604061372101" />
+    <state width="1812" height="213" key="GridCell.Tab.0.right/0.0.1856.925@0.0.1856.925" timestamp="1604306212892" />
     <state width="1812" height="277" key="GridCell.Tab.0.right/0.0.1856.929@0.0.1856.929" timestamp="1603706582684" />
     <state width="1812" height="601" key="GridCell.Tab.1.bottom" timestamp="1603651710599">
       <screen x="0" y="0" width="1856" height="929" />
@@ -189,6 +189,10 @@
       <screen x="0" y="0" width="1856" height="925" />
     </state>
     <state x="628" y="208" key="refactoring.ChangeSignatureDialog/0.0.1856.925@0.0.1856.925" timestamp="1603956040364" />
+    <state x="584" y="206" key="run.anything.popup" timestamp="1604173112239">
+      <screen x="0" y="0" width="1856" height="925" />
+    </state>
+    <state x="584" y="206" key="run.anything.popup/0.0.1856.925@0.0.1856.925" timestamp="1604173112239" />
     <state x="591" y="196" width="672" height="678" key="search.everywhere.popup" timestamp="1603899837418">
       <screen x="0" y="0" width="1856" height="925" />
     </state>
