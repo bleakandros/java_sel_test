@@ -33,4 +33,25 @@ dependencies {
     api 'org.projectlombok:lombok:1.16.18'
     api 'org.assertj:assertj-core:3.8.0'
     api 'org.aspectj:aspectjweaver:1.8.10'
+    compile group: 'io.qameta.allure', name: 'allure-selenide', version: '2.0-BETA22'
 }
+
+task testCards (type : Test) {
+    useTestNG {
+        suites "src/test/resources/testng.xml"
+    }
+    systemProperty 'allure.model.indentOutput', true
+    systemProperty 'allure.results.directory', 'build/allure-results'
+}
+
+allure {
+    version = '2.2.1'
+    autoconfigure = true
+    aspectjweaver = true
+    allureJavaVersion ='2.0-BETA21'
+}
+
+testCards.doFirst {
+    jvmArgs '-Dwdm.chromeDriverVersion=85.0.4183.87'
+}
+    

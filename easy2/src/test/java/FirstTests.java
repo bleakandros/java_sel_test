@@ -1,6 +1,8 @@
 import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.logevents.SelenideLogger;
 import com.easyqa.qa.pages.*;
 import com.easyqa.qa.pages.util.UserData;
+import io.qameta.allure.selenide.AllureSelenide;
 import org.testng.annotations.*;
 
 import static com.codeborne.selenide.Selenide.close;
@@ -11,12 +13,16 @@ public class FirstTests {
     private boolean acceptNextAlert = true;
     private StringBuffer verificationErrors = new StringBuffer();
 
-    @BeforeMethod(alwaysRun = true)
+    @BeforeSuite(alwaysRun = true)
     public void setUp() throws Exception {
+        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
         Configuration.browser = "chrome";
-        Configuration.browserSize = "1600x1000";
+        //Configuration.browserSize = "1600x1000";
+
+
+
     }
-/*
+
     @Test
     public void loginAsRegistratedUser() {
 
@@ -37,7 +43,7 @@ public class FirstTests {
         ProjectPage projectPage = dashboardPage.openMyProjects();
         projectPage.checkProjectPage();
     }
-*/
+
     @Test
     public void CreateCard() {
         CardData issue = new CardData(0,"test1", "test description");
